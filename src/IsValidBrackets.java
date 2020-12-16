@@ -3,8 +3,7 @@ import java.util.Stack;
 /**
  * @author：licailin
  *
- *
- * 解题思路
+ * 题目地址：https://leetcode-cn.com/problems/valid-parentheses/
  */
 public class IsValidBrackets {
 
