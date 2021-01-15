@@ -13,6 +13,7 @@ public class FindRepeatNum {
 
     static int findRepeatNumber(int[] nums) {
         BitSet bitSet = new BitSet(100001);
+
         int result = 0;
         for (int n: nums) {
             if (bitSet.get(n)) {
@@ -26,7 +27,7 @@ public class FindRepeatNum {
 
 
     public static void main(String[] args) {
-        int[] num = {1,2,3,4,1};
+        int[] num = {1,2,3,4,2,3,4};
         System.out.println(findRepeatNumber(num));
     }
 
